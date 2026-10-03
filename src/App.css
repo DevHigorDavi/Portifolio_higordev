@@ -15,8 +15,13 @@ html{
 
 }
 
+body{
+  background-color: #1255AC;
+  overflow-x: hidden;
+}
+
 .hero{
-  height: 110vh;
+  height: 100vh;
   width: 100%;
   background-image: url(./assets/hero-back.png);
   background-size: 100%;
@@ -28,13 +33,13 @@ html{
   display: flex;
   gap: 24px;
   z-index: 10;
-
   position: absolute;
   top: 30px;
   right: 40px;
 }
 
 .hero-icons i {
+  cursor: pointer;
   font-size: 25px;
   color: white;
 }
@@ -68,6 +73,7 @@ html{
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  z-index: 100;
 }
 
 .menu-desktop img{
@@ -236,3 +242,121 @@ html{
   justify-content: space-between;
   gap: 100px;
 }
+
+
+#Diferencial {
+  min-height: 120vh;
+  position: relative;
+  background-image: url('./assets/diferencial-back.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+#Diferencial .menu-desktop {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.content-diferencial {
+  min-height: 120vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.title-diferencial{
+  font-family: "Anton", sans-serif;
+  font-size: 80px;
+  color: white;
+  line-height: 1.1;
+  transform: translateX(40px)
+}
+
+.title-diferencial p{
+  width: 30%;
+}
+
+.title-diferencial span{
+  color: #0038EF;
+}
+
+.cards-diferencial{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.card{
+  height: 500px;
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap:wrap;
+  gap: 2px;
+  position: relative;
+}
+
+.card:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 90%;
+  width: 2px;
+  background-color: #919091;
+}
+
+
+.content-card h1{
+  font-family: "Anton",sans-serif;
+  font-size: 60px;
+  color: white;
+}
+
+.content-card p{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: #0038EF;
+  letter-spacing: 26%;
+}
+
+.content-card span{
+  display: flex;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  color: #919091;
+  text-align: left;
+  width: 249px;
+}
+
+.card img{
+  transform: translateX(40px);
+  height: 196px;
+  width: 223px;
+}
+
+.button-card{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
+.button-card i{
+  color: white;
+}
+
+
+
