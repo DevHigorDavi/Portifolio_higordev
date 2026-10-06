@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -359,4 +360,199 @@ body{
 }
 
 
+.Skills{
+  position: relative;
+  min-height: 150vh;
 
+  background-image: url(./assets/skills-back.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.skills-title h1{
+  display: flex;
+  justify-content: center;
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 400;
+  font-size: 100px;
+  color: black;
+  letter-spacing: 60%;
+}
+
+.skills-title span{
+  color: #002EEF;
+}
+
+.Skills .menu-desktop a{
+  color: #919091;
+}
+
+.Skills .menu-desktop i{
+  color: black;
+}
+
+.cards-skills{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.card-ferramentas, .card-backend{
+  height: 200px;
+  width: 600px;
+  border-radius: 180px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-backend {
+  position: absolute;
+  top: 630px;
+  left: 60px;
+}
+
+.content-ferramentas{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content-ferramentas h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+  font-size: 55px;
+}
+
+.bolha-icone{
+  width: 158px;
+  height: 158px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #002EEF;
+  border-radius: 158px;
+  transform: translateX(20px);
+}
+
+.bolha-icone i{
+  font-size: 80px;
+}
+
+.icones-ferramentas{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+}
+
+.icones-ferramentas p{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+
+.card-figma i{
+  font-size: 40px;
+}
+
+.card-vite img{
+  width: 40px;
+  height: 40px;
+}
+
+
+/*     CARD FRONT END       */
+
+.card-frontend{
+  position: absolute;
+    top: 240px;
+  left: 540px;
+
+  height: 200px;
+  width: 600px;
+  border-radius: 180px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-frontend{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content-frontend h1{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+  font-size: 55px;
+}
+
+.bolha-icone{
+  width: 158px;
+  height: 158px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #002EEF;
+  border-radius: 158px;
+  transform: translateX(20px);
+}
+
+.bolha-icone i{
+  font-size: 80px;
+}
+
+.icones-frontend{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.icones-frontend p{
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+
+.card-frontend, .card-css, .card-js, .card-react, .card-tailwind, .card-sass i{
+  font-size: 25px;
+  text-align: center;
+}
+
+
+/*     CARD FRONT END       */
+
+.card-python, .card-php, .card-sql i{
+  text-align: center;
+  font-size: 30px;
+}
+
+.Linha-1{
+  position: absolute;
+  z-index: -1;
+  top: 150px;
+  left: 60px;
+}
+
+.Linha-2 {
+  position: absolute;
+  z-index: -1;
+  top: 390px;
+  left: 60px;
+}

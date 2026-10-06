@@ -1,6 +1,7 @@
 import "./App.css";
 import Diferencial from "./sections/Diferencial";
 import Hero from "./sections/Hero";
+import Skills from "./sections/Skills";
 import Sobre from "./sections/Sobre";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Sobre />
       <Diferencial />
+      <Skills />
     </>
   );
 }

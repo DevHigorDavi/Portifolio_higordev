@@ -8,7 +8,7 @@ function HeaderDark() {
         </a>
         <a href="#Sobre">Sobre</a>
         <a href="#Diferencial">Diferencial</a>
-        <a href="">Skills</a>
+        <a href="#Skills">Skills</a>
         <a href="">Projetos</a>
         <a href="">Contato</a>
       </div>
